@@ -720,7 +720,7 @@ TextureImporter:
       213: 8543969532170961538
     second: underworld_load-atlas-32x32_1_238
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -737,9 +737,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -749,8 +752,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -771,11 +774,17 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -785,8 +794,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -796,7 +807,22 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -5829,9 +5855,248 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      underworld_load-atlas-32x32_1_0: -581589458666744264
+      underworld_load-atlas-32x32_1_1: -1624891530888785631
+      underworld_load-atlas-32x32_1_10: 5884667776392582538
+      underworld_load-atlas-32x32_1_100: -5456228003554052948
+      underworld_load-atlas-32x32_1_101: 4224167270248774530
+      underworld_load-atlas-32x32_1_102: 2555545284335168200
+      underworld_load-atlas-32x32_1_103: 1762781488744138901
+      underworld_load-atlas-32x32_1_104: 8622963217318504132
+      underworld_load-atlas-32x32_1_105: 6025663879589564749
+      underworld_load-atlas-32x32_1_106: 5281425966934006166
+      underworld_load-atlas-32x32_1_107: 6999931119733187534
+      underworld_load-atlas-32x32_1_108: -6418561838536920058
+      underworld_load-atlas-32x32_1_109: 2363709131114706082
+      underworld_load-atlas-32x32_1_11: -1937182274464615237
+      underworld_load-atlas-32x32_1_110: -2216188908683513230
+      underworld_load-atlas-32x32_1_111: 2681716900216377020
+      underworld_load-atlas-32x32_1_112: 8081544081900143040
+      underworld_load-atlas-32x32_1_113: 3243437225551704651
+      underworld_load-atlas-32x32_1_114: -271205436969424156
+      underworld_load-atlas-32x32_1_115: 4665495570022201600
+      underworld_load-atlas-32x32_1_116: 5371506659880942254
+      underworld_load-atlas-32x32_1_117: -6518354066489110900
+      underworld_load-atlas-32x32_1_118: 4638875493475326001
+      underworld_load-atlas-32x32_1_119: 952991405405120667
+      underworld_load-atlas-32x32_1_12: -1586728885963675840
+      underworld_load-atlas-32x32_1_120: -4687895460612926396
+      underworld_load-atlas-32x32_1_121: 3009277270237890348
+      underworld_load-atlas-32x32_1_122: 4267530729803279275
+      underworld_load-atlas-32x32_1_123: 4716444698466537254
+      underworld_load-atlas-32x32_1_124: 224656368935846096
+      underworld_load-atlas-32x32_1_125: 7452704262998624724
+      underworld_load-atlas-32x32_1_126: -5389210240167527768
+      underworld_load-atlas-32x32_1_127: 8065295405822396940
+      underworld_load-atlas-32x32_1_128: -1267759100927775737
+      underworld_load-atlas-32x32_1_129: 4593084977577668552
+      underworld_load-atlas-32x32_1_13: 5033667239658307202
+      underworld_load-atlas-32x32_1_130: -165025315958688162
+      underworld_load-atlas-32x32_1_131: -6535524921195328438
+      underworld_load-atlas-32x32_1_132: -3498082799172552083
+      underworld_load-atlas-32x32_1_133: -6870411619980486732
+      underworld_load-atlas-32x32_1_134: 6820558766606190237
+      underworld_load-atlas-32x32_1_135: 1118853188744915915
+      underworld_load-atlas-32x32_1_136: 2738734618350686016
+      underworld_load-atlas-32x32_1_137: 2633859893473148335
+      underworld_load-atlas-32x32_1_138: -8758090322417685334
+      underworld_load-atlas-32x32_1_139: -8981544262370599488
+      underworld_load-atlas-32x32_1_14: 8301832508491062843
+      underworld_load-atlas-32x32_1_140: -4811743208116423938
+      underworld_load-atlas-32x32_1_141: -821856803557819045
+      underworld_load-atlas-32x32_1_142: 1458849904253790840
+      underworld_load-atlas-32x32_1_143: -1333865123330969119
+      underworld_load-atlas-32x32_1_144: 1339055115186100261
+      underworld_load-atlas-32x32_1_145: -6115813424018747137
+      underworld_load-atlas-32x32_1_146: 4961683846280122850
+      underworld_load-atlas-32x32_1_147: 4015345557959638651
+      underworld_load-atlas-32x32_1_148: -4419378247929968579
+      underworld_load-atlas-32x32_1_149: 91237163566607675
+      underworld_load-atlas-32x32_1_15: -967437275466924087
+      underworld_load-atlas-32x32_1_150: 8609087917593533559
+      underworld_load-atlas-32x32_1_151: -3707255228426504371
+      underworld_load-atlas-32x32_1_152: 8725367328375581786
+      underworld_load-atlas-32x32_1_153: 436913726959960472
+      underworld_load-atlas-32x32_1_154: -4455998642378220790
+      underworld_load-atlas-32x32_1_155: 5719450143144149809
+      underworld_load-atlas-32x32_1_156: 3644476365284889403
+      underworld_load-atlas-32x32_1_157: -2127579777569475429
+      underworld_load-atlas-32x32_1_158: -6342303854512336430
+      underworld_load-atlas-32x32_1_159: 2197357144328237984
+      underworld_load-atlas-32x32_1_16: 3390087499484312859
+      underworld_load-atlas-32x32_1_160: 84980489137530795
+      underworld_load-atlas-32x32_1_161: 8904196932575153912
+      underworld_load-atlas-32x32_1_162: 8148636589176024803
+      underworld_load-atlas-32x32_1_163: 7786906508458608531
+      underworld_load-atlas-32x32_1_164: 2694356496864333529
+      underworld_load-atlas-32x32_1_165: 1147229826823449116
+      underworld_load-atlas-32x32_1_166: 6225285029930511048
+      underworld_load-atlas-32x32_1_167: -192687121869813128
+      underworld_load-atlas-32x32_1_168: 2119443144635423443
+      underworld_load-atlas-32x32_1_169: -5061208241810068928
+      underworld_load-atlas-32x32_1_17: 7584165513889977118
+      underworld_load-atlas-32x32_1_170: 3712858257298717029
+      underworld_load-atlas-32x32_1_171: 4833816887059868619
+      underworld_load-atlas-32x32_1_172: 6317431881757497238
+      underworld_load-atlas-32x32_1_173: 7565391783043823660
+      underworld_load-atlas-32x32_1_174: 2266849237877774101
+      underworld_load-atlas-32x32_1_175: 4889451793938434169
+      underworld_load-atlas-32x32_1_176: 687385360528607472
+      underworld_load-atlas-32x32_1_177: -919053370498769777
+      underworld_load-atlas-32x32_1_178: 755775133535821410
+      underworld_load-atlas-32x32_1_179: 5928213485206594545
+      underworld_load-atlas-32x32_1_18: -4864662372117386514
+      underworld_load-atlas-32x32_1_180: -6796538495568841058
+      underworld_load-atlas-32x32_1_181: 977597573116894212
+      underworld_load-atlas-32x32_1_182: -5210413530073432251
+      underworld_load-atlas-32x32_1_183: 607654243219391541
+      underworld_load-atlas-32x32_1_184: -6302559365021961182
+      underworld_load-atlas-32x32_1_185: -6466933496086424552
+      underworld_load-atlas-32x32_1_186: 850855337584229026
+      underworld_load-atlas-32x32_1_187: 728011611968595201
+      underworld_load-atlas-32x32_1_188: -3484699583423099888
+      underworld_load-atlas-32x32_1_189: 5870518499272630224
+      underworld_load-atlas-32x32_1_19: 1791911473767737376
+      underworld_load-atlas-32x32_1_190: -8092580387934568280
+      underworld_load-atlas-32x32_1_191: 4110531716059118540
+      underworld_load-atlas-32x32_1_192: 5022895265068717511
+      underworld_load-atlas-32x32_1_193: 4676493466084942790
+      underworld_load-atlas-32x32_1_194: 4126563119084614624
+      underworld_load-atlas-32x32_1_195: -2957159535905490107
+      underworld_load-atlas-32x32_1_196: 914469839948407084
+      underworld_load-atlas-32x32_1_197: -162573748431408069
+      underworld_load-atlas-32x32_1_198: -6747256905196649846
+      underworld_load-atlas-32x32_1_199: 273566077903313446
+      underworld_load-atlas-32x32_1_2: 2371844440917959845
+      underworld_load-atlas-32x32_1_20: -6303052965966476547
+      underworld_load-atlas-32x32_1_200: 7220656174262107395
+      underworld_load-atlas-32x32_1_201: 875490211607645437
+      underworld_load-atlas-32x32_1_202: -2907759161951363999
+      underworld_load-atlas-32x32_1_203: -5104848740866015400
+      underworld_load-atlas-32x32_1_204: 7425685503910936881
+      underworld_load-atlas-32x32_1_205: 7499025542614879968
+      underworld_load-atlas-32x32_1_206: -6450286523457175116
+      underworld_load-atlas-32x32_1_207: 3143556332338343809
+      underworld_load-atlas-32x32_1_208: -3445905044060790684
+      underworld_load-atlas-32x32_1_209: -2457205439277077468
+      underworld_load-atlas-32x32_1_21: -5526393274485184913
+      underworld_load-atlas-32x32_1_210: -2578285631957834943
+      underworld_load-atlas-32x32_1_211: -6023433824445283607
+      underworld_load-atlas-32x32_1_212: -4581888288970688103
+      underworld_load-atlas-32x32_1_213: 547607933295020874
+      underworld_load-atlas-32x32_1_214: 6736965056253979144
+      underworld_load-atlas-32x32_1_215: -3906706490350442409
+      underworld_load-atlas-32x32_1_216: 253867955901602808
+      underworld_load-atlas-32x32_1_217: -1353647772335787524
+      underworld_load-atlas-32x32_1_218: 7540979955542035541
+      underworld_load-atlas-32x32_1_219: 3541896438692475499
+      underworld_load-atlas-32x32_1_22: 2911191092205745091
+      underworld_load-atlas-32x32_1_220: -184887100520643204
+      underworld_load-atlas-32x32_1_221: -6150225096574991612
+      underworld_load-atlas-32x32_1_222: -8126478712578887443
+      underworld_load-atlas-32x32_1_223: 3081829838046588430
+      underworld_load-atlas-32x32_1_224: 955731245910305823
+      underworld_load-atlas-32x32_1_225: -434980592044035836
+      underworld_load-atlas-32x32_1_226: 7508992073268962657
+      underworld_load-atlas-32x32_1_227: -7380481883803219219
+      underworld_load-atlas-32x32_1_228: 7778112613879866137
+      underworld_load-atlas-32x32_1_229: -2790968865759415570
+      underworld_load-atlas-32x32_1_23: -3015163919307911643
+      underworld_load-atlas-32x32_1_230: -4727699384739446392
+      underworld_load-atlas-32x32_1_231: -8425996580690627404
+      underworld_load-atlas-32x32_1_232: -629886169703256796
+      underworld_load-atlas-32x32_1_233: -395378346272820311
+      underworld_load-atlas-32x32_1_234: 1056877573152286714
+      underworld_load-atlas-32x32_1_235: 995547495945020234
+      underworld_load-atlas-32x32_1_236: 61482654064852498
+      underworld_load-atlas-32x32_1_237: 4153850656831730253
+      underworld_load-atlas-32x32_1_238: 8543969532170961538
+      underworld_load-atlas-32x32_1_24: -6508882077103409921
+      underworld_load-atlas-32x32_1_25: -8180138363251506038
+      underworld_load-atlas-32x32_1_26: -6332934214916933013
+      underworld_load-atlas-32x32_1_27: 7889632498461442806
+      underworld_load-atlas-32x32_1_28: -2129120571105411536
+      underworld_load-atlas-32x32_1_29: -8543914274601627125
+      underworld_load-atlas-32x32_1_3: 4649979403185735613
+      underworld_load-atlas-32x32_1_30: -6048774948815418161
+      underworld_load-atlas-32x32_1_31: 788128552862664465
+      underworld_load-atlas-32x32_1_32: 232209223692965173
+      underworld_load-atlas-32x32_1_33: -4628530681240187644
+      underworld_load-atlas-32x32_1_34: -7499427328512989497
+      underworld_load-atlas-32x32_1_35: 4757916578784428806
+      underworld_load-atlas-32x32_1_36: -9074563828258374735
+      underworld_load-atlas-32x32_1_37: -7206853091612276954
+      underworld_load-atlas-32x32_1_38: -7354484779816521063
+      underworld_load-atlas-32x32_1_39: -4238345521911928524
+      underworld_load-atlas-32x32_1_4: 247594408534050051
+      underworld_load-atlas-32x32_1_40: -6253612905389825304
+      underworld_load-atlas-32x32_1_41: -4812641234027578754
+      underworld_load-atlas-32x32_1_42: 7886335846460003100
+      underworld_load-atlas-32x32_1_43: -478812227783667550
+      underworld_load-atlas-32x32_1_44: 280630458520709219
+      underworld_load-atlas-32x32_1_45: 8300100927100353641
+      underworld_load-atlas-32x32_1_46: -4980200086455291988
+      underworld_load-atlas-32x32_1_47: 5092712027667371163
+      underworld_load-atlas-32x32_1_48: 8779993629169837667
+      underworld_load-atlas-32x32_1_49: 1525894859866525613
+      underworld_load-atlas-32x32_1_5: -6345732701478277512
+      underworld_load-atlas-32x32_1_50: 4603441551709924539
+      underworld_load-atlas-32x32_1_51: 4671408829722138008
+      underworld_load-atlas-32x32_1_52: -4824668072238384811
+      underworld_load-atlas-32x32_1_53: -7099232455669347446
+      underworld_load-atlas-32x32_1_54: 5552054722436854791
+      underworld_load-atlas-32x32_1_55: -5594339804640031390
+      underworld_load-atlas-32x32_1_56: 4048213069551750137
+      underworld_load-atlas-32x32_1_57: -3408985244194865029
+      underworld_load-atlas-32x32_1_58: 8989185510674238291
+      underworld_load-atlas-32x32_1_59: 3734878887687457358
+      underworld_load-atlas-32x32_1_6: -6555487247612838427
+      underworld_load-atlas-32x32_1_60: 5135085772338174273
+      underworld_load-atlas-32x32_1_61: -2678874949049117691
+      underworld_load-atlas-32x32_1_62: 2562164590949397370
+      underworld_load-atlas-32x32_1_63: 5403416780593692231
+      underworld_load-atlas-32x32_1_64: 2501555507886427328
+      underworld_load-atlas-32x32_1_65: 4223473920123046563
+      underworld_load-atlas-32x32_1_66: 6890313885192863857
+      underworld_load-atlas-32x32_1_67: 26688068767487091
+      underworld_load-atlas-32x32_1_68: -8738641151009096882
+      underworld_load-atlas-32x32_1_69: -5079096563661080523
+      underworld_load-atlas-32x32_1_7: 4664930058237294018
+      underworld_load-atlas-32x32_1_70: -5369617626729869593
+      underworld_load-atlas-32x32_1_71: -6470709713181406067
+      underworld_load-atlas-32x32_1_72: 1798390388463594494
+      underworld_load-atlas-32x32_1_73: -5630706001185683732
+      underworld_load-atlas-32x32_1_74: -4103505865479270574
+      underworld_load-atlas-32x32_1_75: -881627934079778389
+      underworld_load-atlas-32x32_1_76: -4295300197112241869
+      underworld_load-atlas-32x32_1_77: -5897442573964588748
+      underworld_load-atlas-32x32_1_78: 4344068159059880824
+      underworld_load-atlas-32x32_1_79: -6330287779975201661
+      underworld_load-atlas-32x32_1_8: -3862041742747294998
+      underworld_load-atlas-32x32_1_80: -5489203560299971977
+      underworld_load-atlas-32x32_1_81: -6545447515520461544
+      underworld_load-atlas-32x32_1_82: -9088842278646691106
+      underworld_load-atlas-32x32_1_83: -1933589384806562530
+      underworld_load-atlas-32x32_1_84: -4168484455500109991
+      underworld_load-atlas-32x32_1_85: -7286138658887167432
+      underworld_load-atlas-32x32_1_86: -2314146903005494060
+      underworld_load-atlas-32x32_1_87: 4740504510604843451
+      underworld_load-atlas-32x32_1_88: -5312709975072642870
+      underworld_load-atlas-32x32_1_89: 39945398052483167
+      underworld_load-atlas-32x32_1_9: 2101663506389824408
+      underworld_load-atlas-32x32_1_90: -7555213662282200940
+      underworld_load-atlas-32x32_1_91: 4071579744023716718
+      underworld_load-atlas-32x32_1_92: -8398729340066035301
+      underworld_load-atlas-32x32_1_93: -5245037065131895981
+      underworld_load-atlas-32x32_1_94: 4837531077256573619
+      underworld_load-atlas-32x32_1_95: 1648193042336525463
+      underworld_load-atlas-32x32_1_96: -5502649472620835566
+      underworld_load-atlas-32x32_1_97: 5811543263107889903
+      underworld_load-atlas-32x32_1_98: -8450522774569472379
+      underworld_load-atlas-32x32_1_99: -8322841595948694532
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
